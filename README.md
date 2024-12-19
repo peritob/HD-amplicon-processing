@@ -1,2 +1,2 @@
 # HD-amplicon-processing
-Ceratobasidium theobromae HD alleles comparative analysis
+_Ceratobasidium theobromae_ _Homeodomain_ transcription factor (_HD_) alleles comparative analysis
