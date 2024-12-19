@@ -34,3 +34,6 @@ nextflow run epi2me-labs/wf-amplicon \
 --fastq 'HD-amplicons/fastq/barcode24/' \
 --reference 'HD-amplicons/HD_5kb_flanking.fa
 ``
+
+The workflow output looks like this:
+https://htmlpreview.github.io/h?ttps://github.com/peritob/HD-amplicon-processing/blob/main/wf-amplicon-report.html
