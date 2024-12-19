@@ -1,4 +1,4 @@
-Will use nextflow epi2me to process fastq_pass files output from MinION. For example using _Ceratobasidium theobromae_ _HD_ amplicon barcode24.
+Plan to use nextflow epi2me to process fastq_pass files output from MinION. For example using _Ceratobasidium theobromae_ _HD_ amplicon barcode24.
 
 ``
 mkdir HD-amplicons
@@ -27,17 +27,10 @@ total 6.4M
 ``
 etc.
 
-Now run wf-amplicon.
+Now run wf-amplicon v1.1.3-g8f9a298.
 
 ``
 nextflow run epi2me-labs/wf-amplicon \
 --fastq 'HD-amplicons/fastq/barcode24/' \
 --reference 'HD-amplicons/HD_5kb_flanking.fa
-This is epi2me-labs/wf-amplicon v1.1.3-g8f9a298.
-``
-``
-Completed at: 02-Nov-2024 17:27:36
-Duration    : 18m 38s
-CPU hours   : 3.1
-Succeeded   : 2'506
 ``
