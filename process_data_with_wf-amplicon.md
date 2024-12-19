@@ -36,4 +36,4 @@ nextflow run epi2me-labs/wf-amplicon \
 ``
 
 The workflow output looks like this:
-https://htmlpreview.github.io/h?ttps://github.com/peritob/HD-amplicon-processing/blob/main/wf-amplicon-report.html
+https://htmlpreview.github.io/?https://github.com/peritob/HD-amplicon-processing/blob/main/wf-amplicon-report.html
