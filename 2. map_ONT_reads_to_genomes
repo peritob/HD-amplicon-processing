@@ -1,0 +1,21 @@
+We checked the reads against the publicly available genomes for _Ceratobasidium theobromae_ from Sulawesi, Malaysia, Laos and a _Ceraobasidium_ sp. genome from China.
+
+``
+module load  minimap2/2.21-r1071
+module load samtools/1.9
+``
+
+Working directory
+
+``
+cd $PBS_O_WORKDIR
+``
+
+run minimap2 script - qsub -v prefix_name=GCA_009078325 minimap.pbs 
+
+``
+minimap2 -d ${prefix_name}.mmi ${prefix_name}.fa
+``
+
+#Usage: minimap2 [options] <target.fa>|<target.idx> [query.fa] [...] '-a' outputs in sam format then use samtools view to get unmapped with -f 4
+minimap2 -K 2g -t 4 -x map-ont -o $OUTDIR/${prefix_name}.sam -a $WDIR/${prefix_name}.mmi $WDIR/HD-amplicons/fastq/barcode24/combined.fastq.gz
