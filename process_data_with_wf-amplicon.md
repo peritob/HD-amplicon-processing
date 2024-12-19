@@ -6,6 +6,7 @@ mkdir HD-amplicons/fastq
 cd HD-amplicons/fastq
 ln -s /var/lib/minknow/data/NLRs_Cocoa_291024/NLRs_Cocoa/20241029_1210_MN42941_FAX75472_800d4df6/fastq_pass/barcode24 barcode24
 ``
+
 Move the reference sequence into the directory. Instead of full Sulawesi derived genome (GCA_009078325.fa), use the 5kb plus/minus sequence regions flanking the HD allele.
 
 ``
