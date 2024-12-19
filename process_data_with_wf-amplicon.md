@@ -25,6 +25,7 @@ total 6.4M
 -rw-rw-r-- 1 minknow minknow  68K Oct 29 13:05 FAX75472_pass_barcode24_800d4df6_088665c8_4.fastq.gz
 -rw-rw-r-- 1 minknow minknow 136K Oct 29 13:13 FAX75472_pass_barcode24_800d4df6_088665c8_5.fastq.gz
 ``
+
 etc.
 
 Now run wf-amplicon v1.1.3-g8f9a298.
