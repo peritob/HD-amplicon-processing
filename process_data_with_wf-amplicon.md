@@ -2,8 +2,17 @@ Plan to use nextflow epi2me to process fastq_pass files output from MinION. For 
 
 ``
 mkdir HD-amplicons
+``
+
+``
 mkdir HD-amplicons/fastq
+``
+
+``
 cd HD-amplicons/fastq
+``
+
+``
 ln -s /var/lib/minknow/data/NLRs_Cocoa_291024/NLRs_Cocoa/20241029_1210_MN42941_FAX75472_800d4df6/fastq_pass/barcode24 barcode24
 ``
 
@@ -37,4 +46,5 @@ nextflow run epi2me-labs/wf-amplicon \
 ``
 
 The workflow output looks like this:
+
 https://htmlpreview.github.io/?https://github.com/peritob/HD-amplicon-processing/blob/main/wf-amplicon-report.html
